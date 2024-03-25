@@ -4,6 +4,7 @@ const routes = require('./routes');
 
 const PORT = process.env.PORT || 3001;
 
+// turn on express to allow serverside function
 const app = express();
 
 app.use(express.json());
@@ -14,6 +15,7 @@ app.use(routes);
 
 app.use(express.static('public'));
 
+// handles wildcard requests and brings the user back to index.html
 app.get('*', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/index.html'))
 );
