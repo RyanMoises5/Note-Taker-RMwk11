@@ -39,13 +39,13 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## URLs and Images 
 
-The following link is the student's URL to the completed assignment:
+The following link is the student's deployed app hosted on Heroku:
 
 (https://note-taker-rmwk11-fc935373e97f.herokuapp.com/)
 
-The following link is the Heroku repository where the associated files are located:
+The following link is the GitHub repository where the associated files are located:
 
-(https://dashboard.heroku.com/apps/note-taker-rmwk11)
+(https://github.com/RyanMoises5/Note-Taker-RMwk11)
 
 ![Image of the Note Taker App](./sample.JPG)
 
